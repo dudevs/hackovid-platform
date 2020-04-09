@@ -8,7 +8,7 @@ CREATE TABLE supermarket.shop(
     nom VARCHAR(250),
     latitude double precision,
     longitude double precision,
-    adress VARCHAR(250),
+    address VARCHAR(250),
     city VARCHAR(250)
 );
 
