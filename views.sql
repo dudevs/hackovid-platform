@@ -13,4 +13,4 @@ CREATE OR REPLACE VIEW supermarket.last_four_hours
   WHERE infoshop.unixtime::double precision >= floor(date_part('epoch'::text, now()) - 14400::double precision);
 
 ALTER TABLE supermarket.last_four_hours
-    OWNER TO postgres;
+    OWNER TO dudevs;
