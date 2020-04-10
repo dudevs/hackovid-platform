@@ -1,3 +1,7 @@
+-- FUNCTION: supermarket."getNearbyShops"(double precision, double precision, integer)
+
+-- DROP FUNCTION supermarket."getNearbyShops"(double precision, double precision, integer);
+
 CREATE OR REPLACE FUNCTION supermarket."getNearbyShops"(
 	double precision,
 	double precision,
@@ -19,4 +23,4 @@ BEGIN
 				 END; $BODY$;
 
 ALTER FUNCTION supermarket."getNearbyShops"(double precision, double precision, integer)
-    OWNER TO postgres;
+    OWNER TO dudevs;
