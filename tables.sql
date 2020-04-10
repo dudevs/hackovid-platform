@@ -1,16 +1,28 @@
+-- Table: supermarket.group_types
+
+-- DROP TABLE supermarket.group_types;
+
 CREATE TABLE supermarket.group_types(
     name VARCHAR(250) primary key,
     description VARCHAR(250)
 );
 
+-- Table: supermarket.shop
+
+-- DROP TABLE supermarket.shop;
+
 CREATE TABLE supermarket.shop(
     id VARCHAR(40) primary key,
     nom VARCHAR(250),
-    latitude double precision,
-    longitude double precision,
     address VARCHAR(250),
     city VARCHAR(250)
+    latitude double precision,
+    longitude double precision,
 );
+
+-- Table: supermarket.infoshop
+
+-- DROP TABLE supermarket.infoshop;
 
 CREATE TABLE supermarket.infoshop(
     idshop VARCHAR(250),
