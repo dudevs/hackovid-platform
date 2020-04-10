@@ -10,7 +10,7 @@ CREATE SEQUENCE supermarket.api_calls
     CACHE 1;
 
 ALTER SEQUENCE supermarket.api_calls
-    OWNER TO postgres;
+    OWNER TO dudevs;
 
 COMMENT ON SEQUENCE supermarket.api_calls
     IS 'The number of the API is called. Max -> 4000';
