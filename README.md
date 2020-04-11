@@ -46,3 +46,5 @@ docker-compose down
 #expose:
 #  - 5432
 ```
+
+***Nota:*** els fitxers Dockerfile i docker-compose.yml estan configurats per fer-se servir a MacOS Catalina, és possible que alguna comanda sigui lleugerament diferent a entorns amb Windows o Linux.
