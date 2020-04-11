@@ -15,9 +15,9 @@ CREATE TABLE supermarket.shop(
     id VARCHAR(40) primary key,
     nom VARCHAR(250),
     address VARCHAR(250),
-    city VARCHAR(250)
+    city VARCHAR(250),
     latitude double precision,
-    longitude double precision,
+    longitude double precision
 );
 
 -- Table: supermarket.infoshop

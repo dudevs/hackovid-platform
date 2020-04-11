@@ -8,6 +8,6 @@ INSERT INTO supermarket.group_types(name, description) VALUES ('oil', 'Oil');
 INSERT INTO supermarket.group_types(name, description) VALUES ('flour', 'Flour');
 INSERT INTO supermarket.group_types(name, description) VALUES ('milk', 'Milk');
 INSERT INTO supermarket.group_types(name, description) VALUES ('eggs', 'Eggs');
-INSERT INTO supermarket.group_types(name, description) VALUES ('baby_food', Baby food'');
+INSERT INTO supermarket.group_types(name, description) VALUES ('baby_food', 'Baby food');
 INSERT INTO supermarket.group_types(name, description) VALUES ('hand_soap', 'Hand soap');
 INSERT INTO supermarket.group_types(name, description) VALUES ('toilet_paper', 'Toiler paper');
