@@ -1,13 +1,14 @@
 # hackovid-platform
 Platform (conté la base de dades)
 
-Descarregar el Postgre a https://www.postgresql.org/download/ 
-
-Instal·lar l'extensió postgis al final de l'instal·lació per tenir les funcions de geolocalització.
-
-Creem l'esquema `CREATE SCHEMA supermarket;`
-
-Dins el Postgre afegir l'extensió plpgsql dins de l'esquema supermarket.
+1. Descarregar el Postgre a https://www.postgresql.org/download/. Hem estat utilitznt la última versió actual, la 12.
+2. Instal·lar l'extensió postgis al final de l'instal·lació per tenir les funcions de geolocalització.
+3. Creem l'esquema `CREATE SCHEMA supermarket;`
+4. Dins el Postgre afegir l'extensió plpgsql dins de l'esquema supermarket si no hi és: Apretarem el botó dret a extensions/create/extensions i, primerament, posar l'extensió supermarquet a la segona pestanya i, finalment, plpgsqla a la primera pestanya.
+5. Executar script tables.sql
+6. Executar script views.sql
+7. Executar functions.sql
+8. Executar script init data.sql
 
 
 ## Docker (opcional)
