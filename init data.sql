@@ -1,0 +1,13 @@
+INSERT INTO supermarket.group_types(name, description) VALUES ('water', 'Water');
+INSERT INTO supermarket.group_types(name, description) VALUES ('canned_food', 'Canned food');
+INSERT INTO supermarket.group_types(name, description) VALUES ('fruit', 'Fruit');
+INSERT INTO supermarket.group_types(name, description) VALUES ('vegetables', 'Vegetables and variety');
+INSERT INTO supermarket.group_types(name, description) VALUES ('pasta', 'Pasta');
+INSERT INTO supermarket.group_types(name, description) VALUES ('rice', 'Rice');
+INSERT INTO supermarket.group_types(name, description) VALUES ('oil', 'Oil');
+INSERT INTO supermarket.group_types(name, description) VALUES ('flour', 'Flour');
+INSERT INTO supermarket.group_types(name, description) VALUES ('milk', 'Milk');
+INSERT INTO supermarket.group_types(name, description) VALUES ('eggs', 'Eggs');
+INSERT INTO supermarket.group_types(name, description) VALUES ('baby_food', Baby food'');
+INSERT INTO supermarket.group_types(name, description) VALUES ('hand_soap', 'Hand soap');
+INSERT INTO supermarket.group_types(name, description) VALUES ('toilet_paper', 'Toiler paper');
