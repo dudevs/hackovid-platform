@@ -1,4 +1,4 @@
-# hackovid-platform
+# Dispocat-platform
 Platform (conté la base de dades)
 
 1. Descarregar el Postgre Copyright © a https://www.postgresql.org/download/. Hem estat utilitzat la última versió actual, la 12.
